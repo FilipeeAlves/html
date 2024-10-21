@@ -1,48 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    *{ 
-    margim: 0;
-    padding: 0;
-    box-sizing: border-box;
-     }
-     body{
-    display: flex;
+        * {
+            /* * é utilizado para todos os elementos */
+            margin: 0;
+            /* margem esterna */
+            padding: 0;
+            /* margem interna */
+            box-sizing: border-box;
+            /* incluir o preenchimento das bordas */
+        }
 
-     }
-     header{
-        display: flex;
-        background-color: lightseagreen;
-     }
-     nav{
-        display: flex;
-        background-color: aquamarine;
-     }
-     main{ 
-       display: flex; 
-       background-color: blueviolet;
-     }
-     aside{
-       display: flex;
-       background-color: blueviolet;
-     }
-     footer{
-        background-color: chocolate;
-        display: flex;
-     }
-     
+        body {
+            /* elementos flexível em um container */
+            display: flex;
+            margin: 3px;
+            flex-wrap: wrap;
+            flex: 1 1 100vw;
+        }
+
+        header {
+            display: flex;
+            margin: 3px;
+            background-color: gray;
+            flex: 1 1 100vw;
+            height: 100px;
+        }
+
+        nav {
+            display: flex;
+            margin: 3px;
+            background-color: gray;
+            flex: 1 1 200px;
+        }
+
+        main {
+            display: flex;
+            margin: 3px;
+            background-color: gray;
+            height: calc(100vh - 224px);
+            flex: 20 1 500px;
+        }
+
+        aside {
+            display: flex;
+            margin: 3px;
+            background-color: gray;
+            flex: 1 1 200px;
+        }
+
+        footer {
+            display: flex;
+            margin: 3px;
+            background-color: gray;
+            height: 100px;
+            flex: 1 1 100vw;
+        }
     </style>
 </head>
-<body> 
-<header>Cabeçalho</header>
-<nav>Menu</menu></nav>
-<main>Principal</main>
-<aside>Relacionado ao principal</aside>
-<footer>Rodapé</footer>
+
+<body>
+     
+<img src="Dirce C Amaral sem fundo.png" alt="">
+
+    <head> <h1>A Escola Dirce Celestino do Amaral é uma instituição de ensino que se destaca pelo seu compromisso com a qualidade educacional e o desenvolvimento integral de seus alunos. Localizada em uma região que valoriza a educação, a escola oferece um ambiente acolhedor e estimulante, onde os estudantes podem explorar seus talentos e habilidades.
+
+        Uma das características marcantes da Escola Dirce Celestino do Amaral é a diversidade de atividades que promove, incorporando metodologias inovadoras que buscam despertar o interesse dos alunos pelo aprendizado. Além das disciplinas tradicionais, a escola investe em projetos extracurriculares que envolvem arte, esporte e tecnologia, preparando os alunos para os desafios do futuro.
+        
+        O site da escola representa uma extensão desse compromisso. Nele, pais, alunos e a comunidade em geral podem encontrar informações relevantes, como a grade curricular, eventos escolares, e notícias sobre as atividades realizadas. O site também serve como um canal de comunicação, permitindo que a escola mantenha um relacionamento próximo com a comunidade escolar e incentive a participação de todos.
+        
+        A Escola Dirce Celestino do Amaral é, sem dúvida, um lugar onde a educação se transforma em uma experiência rica e significativa, formando cidadãos conscientes e preparados para o mundo. Se você ainda não conhece, vale a pena visitar o site e ficar por dentro de tudo que essa instituição incrível tem a oferecer!</h1></head>
+    <nav> Filipe Rodrigues Alves </nav>
+    <main> Principal </main>
+    <aside> Relacionado ao Principal </aside>
+    <footer> Rodapé </footer>
 </body>
 
-</html
+</html>
